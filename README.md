@@ -15,11 +15,10 @@ PFOV = slider for converting fisheye pov to perspective FOV
 
 PAD = padding (unused)
 
-DISTORTION = 0 = linear
-
+DISTORTION = 
+            
+            0 = linear
             1 = equalarea
-            
             2 = orthographic
-            
             3 = stereographic
 
