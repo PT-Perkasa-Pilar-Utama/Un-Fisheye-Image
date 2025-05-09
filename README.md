@@ -7,6 +7,8 @@ Convert distorted lens effect back into straight image
 requirement: opencv and numpy
 
 # Usage
+![slider](https://github.com/user-attachments/assets/116b0c22-a2de-499f-bd22-27267d4c55b0)
+
 Insert opencv image to code
 
 FOV = slider for real camera fov
