@@ -21,7 +21,7 @@ def open_window(image, window_name, width, height):
     cv2.setWindowProperty(window_name, cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_NORMAL)
     cv2.imshow(window_name, image)
 
-image = cv2.imread('hikvision.png')
+image = cv2.imread('cctv.png')
 format ="fullframe"
 
 #INIT
@@ -106,6 +106,7 @@ while True:
     
     # Break the loop if 'q' is pressed
     if cv2.waitKey(1) & 0xFF == ord('q'):
+        cv2.imwrite('output.png', output_image)
         break
 
 
